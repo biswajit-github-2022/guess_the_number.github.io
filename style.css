@@ -1,0 +1,85 @@
+html{
+    background-color: rgb(131,51,248);
+    color: rgb(75, 254, 175);
+}
+h1{
+    color: rgb(252, 242, 31);
+    border: 3px solid rgb(252, 20, 122);
+    padding: 3px;
+    border-radius: 5px;
+}
+label{
+    color:rgb(73, 254, 76);
+    font-size:25px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.inp{
+    display: flex;
+    justify-content: space-between;
+}
+.guessField,
+.guessSubmit{
+    margin: 4px;
+}
+.resultParas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lastResult{
+    padding: 5px;
+    border-radius: 5px;
+}
+.guessField{
+    border-radius: 5px;
+}
+
+
+
+
+.guessSubmit {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+.guessSubmit:hover,
+.guessSubmit:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+.guessSubmit:hover {
+  transform: translateY(-1px);
+}
+.guessSubmit:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
